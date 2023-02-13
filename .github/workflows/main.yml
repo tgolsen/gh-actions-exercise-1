@@ -28,5 +28,7 @@ jobs:
     steps:
       - name: Build
         run: npm run build
+      - name: Install dependencies
+        run: npm i
       - name: Deploy
         run: echo "Here's where it would deploy."
